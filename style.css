@@ -1,0 +1,204 @@
+/*
+important
+id
+class
+selectores/ etiquetas 
+*/
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#body {
+    max-width: 1440px;
+}
+
+#main {
+    padding-top: 70px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 100vh;
+}
+
+.fotologo { 
+    height: 50px;
+    width: 50x;
+}
+
+
+#header {
+    width: 100%;
+    height: 70px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.3114495798319328) 0%, rgba(255,162,192,1) 100%);
+    position: fixed;
+}
+
+#navBar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+#logoDP {
+    width: 70px;
+    height: 70px;
+}
+
+/*MAIN PORTADA*/
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-inicio_portada{
+    width: 290px;
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+.texto_portada {
+    text-align: left;
+}
+
+.texto-portada_negrita {
+    font-weight: 800;
+}
+
+
+/*PÁGINA CONTACTO*/
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 550px;
+    
+}
+
+.form_contenido {
+    display: flex;
+}
+
+.form_contenido .form_relleno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.form_relleno input , .form_relleno select {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.form_relleno textarea {
+    resize: none;
+    width: 250px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.form_mapa {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_envio input {
+    width: 100px;
+    height: 45px;
+    border: 1px grey solid;
+    background-color: #ffb8ce;
+    color: white;
+    border-radius: 20px 0 20px 0;
+    margin-top: 30px;
+}
+
+
+
+
+/*FOOTER*/
+#footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-color: #ffe0ea;
+}
+
+.footer_logo, .footer_links, .footer_redes {
+    border: 2px #c26c9f solid;
+    padding: 6px;
+}
+
+.footer_logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer_links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_redes {
+    text-align: center;
+}
+.footer_redes img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+
+
+/* clase del 10-8
+PAGE IMÁGENES-en mi pagina seria productos, */
+#imagenes {
+    padding-top: 100px;
+    width: 600px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+
+
+
+
+
+
+
+
+/*.footer_links ul li a:nth-child(aca puede ir el numero que quieras osea si fuera inicio seria el 1)
+y sino a:nth-last-child()
+
+transition para hacerles tranciciones a los logos, link y demas
